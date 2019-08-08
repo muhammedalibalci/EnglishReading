@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardBackgroundColor="#fff"
+    app:cardCornerRadius="3dp"
+    app:cardElevation="3dp"
+    app:contentPadding="5dp"
+    app:cardUseCompatPadding="true">
+
+
+    <ImageView
+        android:id="@+id/imgView"
+        android:layout_width="100dp"
+
+        android:layout_height="100dp"
+        android:adjustViewBounds="true"
+        android:background="@color/cardview_light_background"
+        android:scaleType="fitCenter" />
+
+    <TextView
+        android:id="@+id/titleView"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="10dp"
+        android:text="Title"
+        android:textColor="#000"
+        android:textSize="14sp"
+        android:fontFamily="sans-serif-light">
+
+
+    </TextView>
+
+    <TextView
+    android:id="@+id/genreView"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:text="Genre : "
+        android:textSize="8sp"
+    android:layout_marginLeft="100dp"
+    android:layout_marginTop="50dp"
+        android:fontFamily="sans-serif-medium" />
+
+    <TextView
+        android:id="@+id/lenghtView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Lenght : "
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="70dp"
+        android:textSize="8sp"
+        android:fontFamily="sans-serif-medium" />
+
+    <TextView
+        android:id="@+id/imagetextView"
+        android:layout_width="1dp"
+        android:layout_height="1dp"
+        android:layout_weight="1"
+        android:visibility="invisible"/>
+</androidx.cardview.widget.CardView>

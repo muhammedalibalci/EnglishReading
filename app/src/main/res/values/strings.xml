@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Englishbooks</string>
+    <string-array name="country">
+        <item>Turkish</item>
+        <item>French</item>
+        <item>German</item>
+        <item>Italian</item>
+        <item>Spanish</item>
+    </string-array>
+</resources>

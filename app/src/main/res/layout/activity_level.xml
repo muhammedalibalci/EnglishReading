@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".LevelActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/background_color"
+    >
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="40dp"
+    android:paddingRight="40dp"
+    >
+
+
+    <Button
+
+        android:id="@+id/elemantaryButon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_shape"
+        android:onClick="listBookGo"
+        android:text="ELEMENTARY"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textColor="@android:color/background_dark"
+        android:textSize="14sp"
+
+        />
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:paddingTop="20dp">
+    <Button
+        android:id="@+id/preButonButon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+
+        android:background="@drawable/rounded_shape"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:onClick="listBookGoPreInter"
+        android:text="PRE-INTERMEDIATE"
+        android:textColor="@android:color/background_dark"
+        android:textSize="14sp"
+        />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:paddingTop="20dp">
+    <Button
+        android:id="@+id/booksButon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+
+        android:onClick="listBookGoInter"
+        android:background="@drawable/rounded_shape"
+        android:text="INTERMEDIATE"
+        android:textColor="@android:color/background_dark"
+        android:textSize="14sp"
+        android:fontFamily="sans-serif-condensed-medium"
+        />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:paddingTop="20dp">
+    <Button
+        android:id="@+id/booksButon5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+
+        android:background="@drawable/rounded_shape"
+        android:text="UPPER-INTERMEDIATE"
+        android:onClick="listBookGoUpInter"
+        android:textColor="@android:color/background_dark"
+        android:textSize="14sp"
+        android:fontFamily="sans-serif-condensed-medium"
+        />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:paddingTop="20dp">
+    <Button
+        android:id="@+id/booksButon4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+
+        android:background="@drawable/rounded_shape"
+        android:text="ADVANCED"
+        android:onClick="listBookGoAdvance"
+        android:textColor="@android:color/background_dark"
+        android:textSize="14sp"
+        android:fontFamily="sans-serif-condensed-medium"
+        />
+    </LinearLayout>
+</LinearLayout>

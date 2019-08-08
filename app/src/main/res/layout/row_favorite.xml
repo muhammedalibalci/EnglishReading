@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardBackgroundColor="#fff"
+    app:cardCornerRadius="3dp"
+    app:cardElevation="3dp"
+    app:contentPadding="5dp"
+    app:cardUseCompatPadding="true">
+
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="horizontal"
+       >
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:layout_weight="3.5">
+           <ImageView
+               android:id="@+id/imgView"
+               android:layout_width="60dp"
+               android:layout_height="80dp"
+               android:adjustViewBounds="true"
+               android:background="@color/cardview_light_background"
+               android:scaleType="fitCenter" />
+       </LinearLayout>
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:layout_weight="2"
+           android:orientation="vertical"
+           android:paddingLeft="20dp"
+           android:paddingTop="5dp">
+           <TextView
+               android:id="@+id/titleView"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+
+               android:text="Title"
+               android:textColor="#000"
+               android:textSize="14sp"
+               android:fontFamily="sans-serif-light">
+
+
+           </TextView>
+
+           <TextView
+               android:id="@+id/genreView"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="10dp"
+               android:text="Genre : "
+               android:textSize="8sp"
+
+               android:fontFamily="sans-serif-medium" />
+
+           <TextView
+               android:id="@+id/lenghtView"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="5dp"
+               android:text="Lenght : "
+
+               android:textSize="8sp"
+               android:fontFamily="sans-serif-medium" />
+
+           <TextView
+               android:id="@+id/contentView"
+               android:layout_width="1dp"
+               android:layout_height="1dp"
+               android:layout_weight="1"
+               android:visibility="invisible" />
+       </LinearLayout>
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:layout_weight="3"
+           android:orientation="vertical">
+           <Button
+               android:id="@+id/deleteButton"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:background="@drawable/round_delete"
+               android:layout_weight="1"
+               android:fontFamily="sans-serif-light"
+               android:text="Delete"
+               android:textColor="@android:color/white"
+               android:textSize="12sp" />
+           <CheckBox
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:id="@+id/readCheck"
+               android:layout_weight="1"
+               android:text="Read"
+               android:layout_marginTop="4dp"
+               android:layout_marginLeft="10dp"/>
+       </LinearLayout>
+
+   </LinearLayout>
+</androidx.cardview.widget.CardView>
