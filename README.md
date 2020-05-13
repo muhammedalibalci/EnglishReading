@@ -1,7 +1,7 @@
 
-# EnglishReading
+# English Reading App
 
 
 
-https://play.google.com/store/apps/details?id=com.my.englishbooks
+<h5>English reading app with Java, Firebase and Android Studio</h5>
 
